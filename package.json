@@ -4,10 +4,8 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "start": "rm -rf .parcel-cache dist && parcel",
-    "build": "parcel build",
-    "dev": "node-dev index --clear --notify=false",
-    "clear": "rm -rf .parcel-cache dist"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",

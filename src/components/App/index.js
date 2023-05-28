@@ -14,7 +14,7 @@ import Plan_du_site from '../Pages/Plan_du_site';
 import Register from '../Pages/Register';
 import Soumission from '../Pages/Soumission';
 import Denoncer from '../Pages/Denoncer';
-import Recherche from '../Pages/recherche';
+import Recherche from '../Pages/Recherche';
 
 function App() {
 
