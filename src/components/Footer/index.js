@@ -1,6 +1,6 @@
 import './style.scss';
 import { Outlet, Link } from "react-router-dom";
-import FeatherIcon from 'Feather-icons-react';
+import FeatherIcon from 'feather-icons-react';
 
 function Footer() {
   return (

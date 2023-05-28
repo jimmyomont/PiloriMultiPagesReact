@@ -1,7 +1,7 @@
 import './style.scss';
 import Cards from '../Cards'
 import { Outlet, Link } from "react-router-dom";
-import FeatherIcon from 'Feather-icons-react';
+import FeatherIcon from 'feather-icons-react';
 
 function Main() {
 
