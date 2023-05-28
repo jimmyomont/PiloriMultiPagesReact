@@ -1,7 +1,7 @@
 import './style.scss';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Main from '../main';
+import Main from '../Main';
 import Corps from '../Corps'
 import Account from '../Pages/Account'
 import Admin from '../Pages/Admin';
