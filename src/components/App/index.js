@@ -14,7 +14,7 @@ import Plan_du_site from '../Pages/Plan_du_site';
 import Register from '../Pages/Register';
 import Soumission from '../Pages/Soumission';
 import Denoncer from '../Pages/Denoncer';
-import Recherche_erreur from '../Pages/recherche_erreur';
+import Recherche from '../Pages/recherche';
 
 function App() {
 
@@ -31,7 +31,7 @@ return (
         <Route path="Login" element={<Login />} />
         <Route path="Mentions_legales" element={<Mentions_legales />} />
         <Route path="Plan_du_site" element={<Plan_du_site />} />
-        <Route path="Recherche_erreur" element={<Recherche_erreur />} />
+        <Route path="Recherche" element={<Recherche />} />
         <Route path="Register" element={<Register />} />
         <Route path="Soumission" element={<Soumission />} />
         <Route path="Denoncer" element={<Denoncer />} />

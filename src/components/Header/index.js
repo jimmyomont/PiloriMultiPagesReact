@@ -1,5 +1,5 @@
 import './style.scss';
-import FeatherIcon from 'Feather-icons-react';
+import FeatherIcon from 'feather-icons-react';
 import { Outlet, Link } from "react-router-dom";
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
     <div class="header-tools">
       <form class="search">
         <input class="search-input" type="search" placeholder="Rechercher..."/>
-          <Link to="/Recherche_erreur" class="search-submit">
+          <Link to="/Recherche" class="search-submit">
           <FeatherIcon icon="search"/>
         </Link>
       </form>

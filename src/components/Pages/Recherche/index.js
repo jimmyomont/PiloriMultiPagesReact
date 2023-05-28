@@ -1,6 +1,6 @@
 import './style.scss';
 import { Outlet,Link } from 'react-router-dom';
-function Recherche_erreur() {
+function Recherche() {
   return (
     <>
   <main class="content">
@@ -19,4 +19,4 @@ function Recherche_erreur() {
   );
 }
 
-export default Recherche_erreur;
+export default Recherche;
