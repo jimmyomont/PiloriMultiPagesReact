@@ -1,6 +1,6 @@
 import './style.scss';
 import Head from '../Head';
-import Header from '../header';
+import Header from '../Header';
 import Footer from '../footer';
 
 
