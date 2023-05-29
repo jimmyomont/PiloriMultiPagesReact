@@ -55,10 +55,10 @@ function Account() {
           <input type="password" placeholder="Répéter le mot de passe" class="form-input"/>
         </label>
         <div class="segment-actions">
-          <button type="submit" class="btn">Mettre à jour</button>
+          <Link to='/Account' type="submit" class="btn">Mettre à jour</Link>
         </div>
         <div class="segment-actions">
-        <Link to="/Admin"><a class="btn">Compte Admin</a></Link>
+        <Link to="/Admin" class="btn">Compte Admin</Link>
           
         </div>
       </form>
