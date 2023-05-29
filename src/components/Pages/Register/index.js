@@ -36,7 +36,7 @@ function Register() {
           <input type="password" placeholder="Répéter le mot de passe" class="form-input"/>
         </label>
         <div class="segment-actions">
-          <button type="submit" class="btn">S'inscire</button>
+          <Link to="/Register" class="btn">S'inscire</Link>
         </div>
         <div class="segment-actions">
           <Link to="/Login">J'ai déjà un compte</Link>
