@@ -1,5 +1,5 @@
 import feather from 'feather-icons';
-
+console.log('test');
 feather.replace();
 
 const menuToggler = document.getElementById('menuToggler');

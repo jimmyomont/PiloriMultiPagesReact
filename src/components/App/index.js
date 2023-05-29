@@ -40,7 +40,7 @@ return (
     </BrowserRouter>
   );
 }
-const root = ReactDOM.createRoot(document.getElementById('app'));
-root.render(<App />);
+// const root = ReactDOM.createRoot(document.getElementById('app'));
+// root.render(<App />);
 export default App;
 
