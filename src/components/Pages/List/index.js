@@ -10,11 +10,11 @@ function List() {
       <Cards />
       <Cards />
       <footer class="segment-actions">
-        <a class="segment-pagination" href="#">1</a> -
-        <a class="segment-pagination" href="#">2</a> -
-        <a class="segment-pagination" href="#">3</a> 
+        <a class="segment-pagination" >1</a> -
+        <a class="segment-pagination" >2</a> -
+        <a class="segment-pagination" >3</a> 
         ...
-        <a class="segment-pagination" href="#">15</a>
+        <a class="segment-pagination">15</a>
       </footer>
     </section>
   </main>
