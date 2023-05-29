@@ -6,6 +6,9 @@
   margin: 4rem auto;
   padding: 0 1rem;
 
+  &-center {
+    text-align: center;
+  }
   @include mixin.big{
     max-width: 75rem;
   }
