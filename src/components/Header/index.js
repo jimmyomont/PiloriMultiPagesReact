@@ -6,12 +6,7 @@ function Header() {
   return (
     <>
     <header class="header">
-
-
         <Link to="/"class="logo" title="Retour à l'accueil"><img class="logo-img" src="assets/img/logo.svg" alt="PilOri"/></Link>
-
-
-
     <nav class="menu">
       <Link to="/List"><a class="menu-link">Toutes les tomates</a></Link>
       <Link to="/Denoncer"><a class="menu-link">Dénoncer</a></Link>
