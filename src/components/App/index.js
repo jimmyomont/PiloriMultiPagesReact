@@ -18,9 +18,10 @@ import Recherche from '../Pages/Recherche';
 
 function App() {
   return (
-    <BrowserRouter>
-        <Header />
-      <Routes>
+    <>
+      <Header />
+      <BrowserRouter>
+        <Routes>
           <Route index element={<Main />} />
           <Route path="Account" element={<Account />} />
           <Route path="Admin" element={<Admin />} />
@@ -33,10 +34,11 @@ function App() {
           <Route path="Recherche" element={<Recherche />} />
           <Route path="Register" element={<Register />} />
           <Route path="Soumission" element={<Soumission />} />
-          <Route path="Denoncer" element={<Denoncer />} />            
-      </Routes>
+          <Route path="Denoncer" element={<Denoncer />} />
+        </Routes>
+      </BrowserRouter>
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 
