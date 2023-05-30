@@ -19,8 +19,8 @@ import Recherche from '../Pages/Recherche';
 function App() {
   return (
     <>
-      <Header />
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route index element={<Main />} />
           <Route path="Account" element={<Account />} />
@@ -36,8 +36,8 @@ function App() {
           <Route path="Soumission" element={<Soumission />} />
           <Route path="Denoncer" element={<Denoncer />} />
         </Routes>
-      </BrowserRouter>
       <Footer />
+      </BrowserRouter>
     </>
   );
 }
