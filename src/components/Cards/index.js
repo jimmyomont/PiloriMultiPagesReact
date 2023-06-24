@@ -18,6 +18,7 @@ function Cards() {
     img= "ph2"
     title= "Fnac"
     descr="lLorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum maxime explicabo!"
+    next="/Detail"
     />
     <Card 
     tag="Moche"
@@ -25,6 +26,7 @@ function Cards() {
     img= "ph3"
     title= "Agence Nationale des Titres de Sécurité"
     descr="or sit amet conLorem ipsum dolsectetur, adipisicing elit. Quod, placeat"
+    next="/Detail"
     />
     <Card 
     tag="Casse tête"
@@ -32,6 +34,7 @@ function Cards() {
     img= "ph4"
     title= "SNCF"
     descr="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum maxime explicabo!"
+    next="/Detail"
     />
     <Card 
     tag="Moche"
@@ -39,6 +42,7 @@ function Cards() {
     img= "ph2"
     title= "Craiglist"
     descr="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, placeat!"
+    next="/Detail"
     />
     <Card 
     tag="Bloquant"
@@ -46,6 +50,7 @@ function Cards() {
     img= "ph2"
     title= "Oclock.io"
     descr="Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cum maxime explicabo!"
+    next="/Detail"
     />
   </div>
 
